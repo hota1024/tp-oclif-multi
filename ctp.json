@@ -1,0 +1,11 @@
+{
+  "inputs": [
+    "name",
+    "exports",
+    "description"
+  ],
+  "replaces": ["**/*.ts", "**/*.tsx", "package.json", "README.md"],
+  "hooks": {
+    "created": ["yarn", "git init", "git add .", "git commit -m \"🎉 init by hota1024/tp-oclif-multi/ctp.json\""]
+  }
+}
